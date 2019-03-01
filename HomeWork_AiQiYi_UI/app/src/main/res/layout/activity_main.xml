@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="30dp"
+
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="35dp"
+                      android:background="@drawable/shape2"
+
+        >
+            <ImageView android:layout_width="36dp"
+                       android:layout_height="match_parent"
+                       android:src="@mipmap/iqiyi"
+                       android:background="@drawable/shape4"
+            />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:text="爱奇艺"
+                      android:background="@drawable/shape3"
+
+                      android:textSize="18dp"
+                      android:textColor="@color/aiqiyiziti"
+            />
+            <EditText android:layout_width="300dp"
+                      android:layout_height="wrap_content"
+                      android:hint="  奔跑吧兄弟第3季"
+                      android:background="@drawable/shape"
+
+                      android:textSize="15sp"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="35dp"
+                      android:orientation="horizontal"
+
+
+        >
+
+            <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recy1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#FFFFFF"
+
+            >
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:src="@mipmap/wukong"
+                       android:adjustViewBounds="true"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginBottom="10dp">
+            <Button android:layout_width="80dp" android:layout_height="25dp"
+                    android:text="编辑推荐"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/shape_for_bianji"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/eee"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/www"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:layout_weight="1"
+                      android:text="奔跑兄弟第一季"
+            />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+                      android:layout_marginLeft="10dp"
+                      android:adjustViewBounds="true"
+                      android:text="奔跑兄弟第二季"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginBottom="10dp">
+            <Button android:layout_width="80dp" android:layout_height="25dp"
+                    android:text="好莱坞精选"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/shape_for_bianji"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/xingcunzhe"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/siwangfeiche"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/jingshengjianjiao"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+
+                      android:layout_weight="1"
+                      android:text="幸存者"
+            />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+
+
+                      android:text="死亡飞车"
+            />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+
+
+                      android:text="惊声尖叫4"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/xiaowangma"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/zhengju"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/yujianboli"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+
+                      android:layout_weight="1"
+                      android:text="小马王"
+            />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+
+                      android:adjustViewBounds="true"
+                      android:text="证据"
+            />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+
+                      android:adjustViewBounds="true"
+                      android:text="遇见波莉"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:layout_marginBottom="10dp">
+            <Button android:layout_width="80dp" android:layout_height="25dp"
+                    android:text="华语最好看"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/shape_for_bianji"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/fangai"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/yiyefengkuang"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/swglxh"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        >
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+
+                      android:layout_weight="1"
+                      android:text="房爱"
+            />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+
+                      android:adjustViewBounds="true"
+                      android:text="一夜疯狂"
+            />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+
+                      android:adjustViewBounds="true"
+                      android:text="十万个冷笑话"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/woshishui"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/jiayouxishi"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:layout_marginLeft="10dp"
+                       android:adjustViewBounds="true"
+                       android:src="@mipmap/chuxinfangjian"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+
+                      android:layout_weight="1"
+                      android:text="我是谁2015"
+            />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+
+                      android:adjustViewBounds="true"
+                      android:text="家有喜事2009"
+            />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_weight="1"
+
+                      android:adjustViewBounds="true"
+                      android:text="初心房间"
+            />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="热播分类"
+                      />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="35dp"
+                      android:orientation="horizontal"
+
+
+        >
+
+            <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recy2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="#FFFFFF"
+
+
+            >
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
